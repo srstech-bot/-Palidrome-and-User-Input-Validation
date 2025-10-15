@@ -2,22 +2,30 @@
 <html lang="en">
 <head>
     <title>Palindrome Checker</title>
+    <!-- Identifies source code and type -->
     <script src="code.js"></script>
+    <!-- provides the look and style for the page with my chosen color fonts etc -->
     <link href="main2.css" rel="stylesheet">
 </head>
 <body>
     <h1>John Julian's Palindrome Checker</h1>
+        <!-- label for entrt box for user -->
         <input id="palindromeField" type="text">
-        <button onclick="checkForPalindrome();">Activate Palindrome Checker</button> 
+        <!-- user is able to start palindrome check with button click -->
+        <button onclick="checkForPalindrome();">Activate Palindrome Checker</button>
+         <!--calls for results after button is used  -->
         <p id="palindromeResults"></p>
         <br>
+        <!-- 3 required input fields with example values -->
         <input id="firstNameField" type="text" value="John">
         <input id="lastNameField" type="text" value="Doe">
         <br>
         <input id="zipField" type="text" value="55555">
         <br>
+        <!-- button activates function laid out from code.js file -->
         <button onclick="userInfoValidation();">Check User Info</button>
         <p id="userInfoResults"></p>
+        <!-- image id tag with source link -->
         <img id="memeImage" src="https://www.bing.com/th/id/OIP.meZnMO_q9GfKA8NbsATmqwHaEU?w=236&c=11&rs=1&qlt=90&bgcl=ececec&o=6&pid=PersonalBing&p=0">
 </body>
 </html>
